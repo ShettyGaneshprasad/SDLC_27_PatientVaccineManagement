@@ -2,13 +2,17 @@
 
 ![Banner](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/banner.png)
 
+## About Project
+ * During COVID-19 Pnademic, Vaccination is the most effective protection one can give to themselves but managing patients at small hospitals and clinics may be a daunting task as they are not equipped with high end HMS and ERP systems so to ease the process this system will enable one to perform CRUD operations on patients records and will facilitate a smooth process of the hospital functioning.
+ * This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
+`2_Architecture`         | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+`4_TestPlanAndOutput`      | Documents with test plans and procedures
 
 ## Contributors List and Summary
 | PS No.   | Name        | Features                 | Issuess Raised | Issues Resolved | No Test Cases | Test Case Pass |

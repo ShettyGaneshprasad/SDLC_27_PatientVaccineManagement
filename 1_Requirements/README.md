@@ -51,16 +51,16 @@ The proposed system of e Vaccination system provide proper schedule of vaccine t
 
 ## High Level Requirements:
 
-| ID   | Description                                          | Category  | Status      |
-| ---- | ---------------------------------------------------- | --------- | ----------- |
-| HR01 | User shall be able to add new patient record         | Technical | In Progress |
-| HR02 | User shall be able to read a patient record          | Technical | In Progress |
-| HR03 | User shall be able to update a patient record        | Technical | In Progress |
-| HR04 | User shall be able to delete a patient record        | Technical | In Progress |
-| HR05 | User shall be able to save records in a file         | Technical | In Progress |
-| HR06 | User shall be able to read data from a file          | Technical | In Progress |
-| HR07 | Data should not be lost in case of failure           | Scenario  | In Progress |
-| HR08 | Data should always be stored when closing the system | Scenario  | In Progress |
+| ID   | Description                                          | Category       | Status      |
+| ---- | ---------------------------------------------------- | -------------- | ----------- |
+| HR01 | User shall be able to add new patient record         | Functional     | In Progress |
+| HR02 | User shall be able to read a patient record          | Functional     | In Progress |
+| HR03 | User shall be able to update a patient record        | Functional     | In Progress |
+| HR04 | User shall be able to delete a patient record        | Functional     | In Progress |
+| HR05 | User shall be able to save records in a file         | Functional     | In Progress |
+| HR06 | User shall be able to read data from a file          | Functional     | In Progress |
+| HR07 | Data should not be lost or corrupted if any failure  | Non-Functional | In Progress |
+| HR08 | When closing the system data should always be stored | Non-Functional | In Progress |
 
 ## Low level Requirements:
 

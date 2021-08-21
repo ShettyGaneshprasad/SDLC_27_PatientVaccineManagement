@@ -7,12 +7,16 @@
  * This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 ## Folder Structure
-Folder             | Description
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Architecture`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_TestPlanAndOutput`      | Documents with test plans and procedures
+
+| Folder              | Description                                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| 1_Requirements      | Documents detailing requirements and research                                                   |
+| 2_Architecture      | Structural and Behavioural UML Diagrams for High Level and Low level                            |
+| 3_Implementation    | All code and documentation                                                                      |
+| 4_TestPlanAndOutput | Documents with test plans and outputs                                                           |
+| 5_Report            | Generated Report                                                                                |
+| 6_ImagesandVideos   | All the UML diagrams and other required images                                                  |
+| 7_Data              | Files having text file                                                                          |
 
 ## Contributors List and Summary
 | PS No.   | Name        | Features                 | Issuess Raised | Issues Resolved | No Test Cases | Test Case Pass |
@@ -24,7 +28,7 @@ Folder             | Description
 |99005693	| Vysyaraju Srikar             | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005662	| Nikita Gajanan Deshmukh      | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005658	| Amit Kumar Sahani            | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
-|99005636	| Ganeshprasad Santhosh Shetty | Patient Vaccine Management | Nil            | Nil             | 0            | 0            |
+|99005636	| Ganeshprasad Santhosh Shetty | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005661	| Singama Setti Sai Pruthvi    | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005687	| Minhaaz Shaik                | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
    

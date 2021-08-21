@@ -20,9 +20,7 @@
 
 ## Low Level Design
 
-### Package Diagram
 
-<!-- ![PackageDiagram](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/package%20diagram.png) -->
 
 ### State Diagram :
 

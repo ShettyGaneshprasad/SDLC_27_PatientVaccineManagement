@@ -1,6 +1,6 @@
 # SDLC_27_PatientVaccineManagement
 
-![Banner](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/banner.png)
+![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
 
 ## About Project
  * During COVID-19 Pnademic, Vaccination is the most effective protection one can give to themselves but managing patients at small hospitals and clinics may be a daunting task as they are not equipped with high end HMS and ERP systems so to ease the process this system will enable one to perform CRUD operations on patients records and will facilitate a smooth process of the hospital functioning.

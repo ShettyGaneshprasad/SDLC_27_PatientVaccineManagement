@@ -1,0 +1,20 @@
+name: Cppcheck-Static Code Quality Analysis
+
+on:
+  push:
+    branches: [Production]
+  pull_request:
+    branches: [Production]
+
+jobs:
+  cppcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install cppcheck
+        run: sudo apt -y install cppcheck
+      - name: make
+        run: make -C 3_Implementation/ all
+      - name: Run cppcheck
+        run: cppcheck 3_Implementation

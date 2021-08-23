@@ -2,15 +2,18 @@
 
 ![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
 
+
+## Badges
+|Build |	Code Coverage |	Code Quality |	Unity	|
+|------|---------------|--------------|-------|
+|[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml) [![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml)|
+
+
 # Introduction
 
 - The modules help to provides the patient data ,scheduling the appointment for vaccination ,update a patient record and billing function.
 - During COVID-19 Pnademic, Vaccination is the most effective protection one can give to themselves but managing patients at small hospitals and clinics may be a daunting task as they are not equipped with high end HMS and ERP systems so to ease the process this system will enable one to perform CRUD operations on patients records and will facilitate a smooth process of the hospital functioning.
 - This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
-
-[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml)
-
-[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml)
 
 ## Folder Structure
 

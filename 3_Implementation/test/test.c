@@ -221,7 +221,7 @@ int main(void)
     /* Initiate the Unity Test Framework */
     UNITY_BEGIN();
 
-    /* Run Test functions */
+    /* Run the Test functions */
     RUN_TEST(check_openFile);
     RUN_TEST(test_create);
     RUN_TEST(test_insert);
@@ -238,7 +238,7 @@ int main(void)
     
 
 
-    /* Close the Unity Test Framework */
+  /* Close the Unity Test Framework */
     return UNITY_END();
 }
 

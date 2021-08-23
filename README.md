@@ -31,6 +31,36 @@
 |99005636	| Ganeshprasad Santhosh Shetty | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005661	| Singama Setti Sai Pruthvi    | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
 |99005687	| Minhaaz Shaik                | Patient Vaccine Management | Nil            | Nil             | 0            | 0             |
+
+| Feature Id | Feature |
+| -----------|---------|
+|F_01| Option to load older saved data |
+|F_02| Save data to file if only new data is added |
+|F_03| Update data in list and file(if in file) |
+|F_04| Deleting record automatically updates Record file and Index File |
+|F_05| New records gets saved in file at program shut down |
+|F_06| Before program shut down all memory is freed and clean |
+|F_07| Used Binary File System for quick access to files |
+|F_08| Search of Data is possible from both List and file |
+|F_09| Dynamic memory allocation and deallocation implemented |
+
+## Challenges faced and How it was Overcome
+| Sr. No. | Challenges | Overcome |
+|--- |--- |--- |
+|1 | Making of UML diagrams | By Studing about the basic concepts of making UML diagram |
+|2 | Writing all the requirements,cost,swot analysis,4W 1H and High/low level requirements | By studing deep about the project |
+|3 | Creating github Workflows | By Code Inspection |
+|4 | Pushing files and folders to repository by Git bash | By removing all the previous pushed files and folders |
+|5 | C/C++ CI - Build Status is not passing |  By modifying the code |
+|6| Contributors pushing files in a repository| Discussed issues in standup meeting call and helped each other to push files|
+|7| Assigning Modules to Team Members | Decided with Team Members & assigned with the Tasks in meeting|
+|8| Negotiating with views | Sharing ideas, views and concluded the problem with a solution which would benefit the whole team |
+|9| Unexpertise in any language | Helping the team members with the language they don't know |
+|10|De-motivation at any point | Motivating each other and working as a TEAM |
+## Programming Language and Build With
+### Following were used in Project
+-   C Language
+-   Visual Studio Code  
    
    
 

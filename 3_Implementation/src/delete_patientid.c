@@ -1,4 +1,24 @@
+/**
+ * @file delete_patient.c
+ * @author Amit kumar sahni (amit.sahni@ltts.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-08-23
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
 #include "vaccination.h"
+
+/**
+ * @brief function to delete patient record
+ * 
+ * @param start 
+ * @param id 
+ * @return patient* 
+ */
 
 patient *delete_patientid(patient *start, int id){
 

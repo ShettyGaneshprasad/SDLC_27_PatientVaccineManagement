@@ -1,7 +1,7 @@
 #include "vaccination.h"
 #include "unity.h"
 
-/* Required by the unity test framework */
+/* Required by the unity test  framework */
 void setUp()
 {
 }

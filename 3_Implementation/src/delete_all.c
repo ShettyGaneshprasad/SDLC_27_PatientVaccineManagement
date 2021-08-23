@@ -16,7 +16,7 @@
  * @param start 
  */
 
-void delete_all(patient *start)
+void delete_allpatientrecords(patient *start)
 {
 
     patient *current;
@@ -37,7 +37,7 @@ void delete_all(patient *start)
  * @param start 
  * @return patient* 
  */
-patient *delete_beg(patient *start)
+patient *delete_begin(patient *start)
 {
     patient *ptr;
     ptr = start;

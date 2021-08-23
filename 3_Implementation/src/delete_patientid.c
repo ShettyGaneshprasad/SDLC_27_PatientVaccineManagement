@@ -9,7 +9,6 @@
  * 
  */
 
-
 #include "vaccination.h"
 
 /**
@@ -20,20 +19,27 @@
  * @return patient* 
  */
 
-patient *delete_patientid(patient *start, int id){
+patient *delete_patientid(patient *start, int id)
+{
 
     patient *ptr;
     ptr = start;
-    if(start == NULL){
+    if (start == NULL)
+    {
         return NULL;
     }
-    else{
-        if(ptr->uniq_id == id){
-            start = delete_beg(start);
+    else
+    {
+        if (ptr->uniq_id == id)
+        {
+            start = delete_begin(start);
             return start;
-        }else{
+        }
+        else
+        {
             patient *preptr;
-            while(ptr->uniq_id != id){
+            while (ptr->uniq_id != id)
+            {
                 preptr = ptr;
                 ptr = ptr->next;
             }
@@ -42,5 +48,4 @@ patient *delete_patientid(patient *start, int id){
             return start;
         }
     }
-
-} 
+}

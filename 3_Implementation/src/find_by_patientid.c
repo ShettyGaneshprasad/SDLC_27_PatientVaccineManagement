@@ -1,4 +1,25 @@
+/**
+ * @file find_by_patientid.c
+ * @author Amit kumar sahni (amit.sahni@ltts.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-08-23
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "vaccination.h"
+
+/**
+ * @brief it display all the data of patient
+ * 
+ * @param start 
+ * @param id 
+ * @param res 
+ * @param found_id 
+ * @return error_t 
+ */
 
 error_t find_by_patientid(patient *start, int id, patient *res, int *found_id){
 

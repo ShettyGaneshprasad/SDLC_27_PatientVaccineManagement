@@ -1,3 +1,4 @@
+
 /**
  * @file validate_patientid.c
  * @author Srinidhi V Nayak
@@ -22,6 +23,7 @@ error_t validate_patientid(FILE **fptr, int id)
     {
         if(existing_id == id)
         {
+
             return ID_EXISTS;
         }  
     }

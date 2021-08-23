@@ -11,7 +11,7 @@
 | Folder              | Description                                                                                     |
 | ------------------- | ----------------------------------------------------------------------------------------------- |
 | 1_Requirements      | Documents detailing requirements and research                                                   |
-| 2_Architecture      | Structural and Behavioural Diagrams for High Level and Low level                                |
+| 2_Design            | Structural and Behavioural Diagrams for High Level and Low level                                |
 | 3_Implementation    | All code and documentation                                                                      |
 | 4_TestPlanAndOutput | Documents with test plans and outputs                                                           |
 | 5_Report            | Generated Report                                                                                |

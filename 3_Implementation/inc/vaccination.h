@@ -1,7 +1,7 @@
 
 /**
  * @file vaccination.h
- * @author gangs of ltts
+ * @author Anand Botkule
  * @brief This program is for simulating data manipulation using Linked List
  * @version 0.1
  * @date 2021-08-22

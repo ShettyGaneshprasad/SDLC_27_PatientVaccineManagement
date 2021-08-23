@@ -13,47 +13,50 @@
 #ifndef __VACCINATION_H__
 #define __VACCINATION_H__
 
-#include<stdio.h>
+#include <stdio.h>
 //#include<conio.h>
-#include<malloc.h>
-#include<string.h>
-#include<stdlib.h>
-
+#include <malloc.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * @brief Error values for unit testing
  * 
  */
-typedef enum error_t{
+typedef enum error_t
+{
     ERROR_NULL_PTR = -2,
     SUCCESS = 0,
-    START_EXISTS=1,
-    NO_HEAD_EXIST=2,
-    DATE_INCORRECT=3,
-    INVALID_NAME=4,
-    ID_EXISTS=5
-}error_t;
+    START_EXISTS = 1,
+    NO_HEAD_EXIST = 2,
+    DATE_INCORRECT = 3,
+    INVALID_NAME = 4,
+    ID_EXISTS = 5
+} error_t;
 
 /**
  * @brief Maps Vaccine codes to ints
  * 
  */
-typedef enum vaccine{ 
+typedef enum vaccine
+{
     RED = 0,
     GREEN,
     YELLOW
-}vaccine;
+} vaccine;
 
-typedef enum insured{
+typedef enum insured
+{
     YES = 1,
     NO = 0
-}insured;
+} insured;
 
 /**
  * @brief Structure containing details about patient
  * 
  */
-typedef struct patient{
+typedef struct patient
+{
     int uniq_id;
     char firstname[101];
     char lastname[101];
@@ -65,21 +68,17 @@ typedef struct patient{
     insured insurance;
     vaccine shot;
     struct patient *next;
-}patient;
-
-
+} patient;
 
 /**
  * @brief Stores number of boxes with given vaccine
  * 
  */
-typedef struct vaccine_data{
-    int num; // Number of boxes with given code
+typedef struct vaccine_data
+{
+    int num;      // Number of boxes with given code
     vaccine shot; // given code
-}vaccine_data;
-
-
-
+} vaccine_data;
 
 /**
  * @brief Create a linked list object
@@ -95,7 +94,7 @@ typedef struct vaccine_data{
  * @param[in] Vaccine vaccine code of patient
  * @return patient * 
  */
-patient *create_patientid(patient *,int, char *, char *, char *, float, float,int,char *, insured, vaccine);
+patient *create_patientid(patient *, int, char *, char *, char *, float, float, int, char *, insured, vaccine);
 
 /**
  * @brief display status of the patient records
@@ -118,7 +117,7 @@ error_t display_patientid(patient *);
  * @param[in] Vaccine vaccine code of patient
  * @return error_t 
  */
-error_t insert_patientrecords(patient *,int, char *, char *, char *, float, float,int,char *, insured, vaccine);
+error_t insert_patientrecord(patient *, int, char *, char *, char *, float, float, int, char *, insured, vaccine);
 
 /**
  * @brief finds a patient record by Id
@@ -163,7 +162,7 @@ patient *delete_patientid(patient *, int);
  * @param[in]  FILE ** Pointer to temporary file 
  * @return error_t 
  */
-error_t delete_patientrecords_file(FILE **, FILE ** ,int);
+error_t delete_patientrecords_file(FILE **, FILE **, int);
 
 /**
  * @brief Updates Index file
@@ -172,7 +171,7 @@ error_t delete_patientrecords_file(FILE **, FILE ** ,int);
  * @param[in]  FILE ** Pointer to temporary file 
  * @return error_t 
  */
-error_t delete_index_file(FILE **, FILE ** ,int);
+error_t delete_index_file(FILE **, FILE **, int);
 
 /**
  * @brief Deletes all the nodes
@@ -205,7 +204,7 @@ error_t validate_patientid(FILE **fptr, int);
  * @param File File pointer 
  * @return error_t 
  */
-error_t patient_indexFile(char *addr, char *mode ,FILE **fptr);
+error_t patient_indexFile(char *addr, char *mode, FILE **fptr);
 
 /**
  * @brief this file opens records file.
@@ -241,7 +240,7 @@ error_t patient_readFile(FILE **fptr);
  * @param FILE file pointer
  * @return patient *
  */
-patient* patient_loadData(patient *, FILE **);
+patient *patient_loadData(patient *, FILE **);
 
 /**
  * @brief During update operation, automatically gets called to update data in file if exists.
@@ -252,5 +251,3 @@ patient* patient_loadData(patient *, FILE **);
 error_t update_patient_data_file(FILE **, int);
 
 #endif
-
-

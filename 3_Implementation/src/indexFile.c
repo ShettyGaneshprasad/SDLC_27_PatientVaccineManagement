@@ -18,7 +18,7 @@
  * @param fptr 
  * @return error_t 
  */
-error_t indexFile(char *filename, char *mode, FILE **fptr)
+error_t patient_indexFile(char *filename, char *mode, FILE **fptr)
 {
    *fptr = fopen(filename, mode);
    if (*fptr == NULL)

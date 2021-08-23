@@ -94,7 +94,7 @@ error_t update_patientrecord(patient *start, int id, int choice, int test){
             }
         }
 
-      
+        return SUCCESS;
     }
 
 } 

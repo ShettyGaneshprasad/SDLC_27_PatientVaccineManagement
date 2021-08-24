@@ -1,12 +1,12 @@
-# SDLC_27_PatientVaccineManagement
+<!-- # SDLC_27_PatientVaccineManagement
 
 ![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
-
+ -->
 
 ## Badges
-|Build |	Code Coverage |	Code Quality |	Unity	|
+|Linux & Windows Build Status |Unity Testing & Code Coverage  |	Dynamic & Static Code Quality |	Codacy & CodeInspector |
 |------|---------------|--------------|-------|
-|[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml) [![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml)|
+|[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml) [![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml)|[![Unit Testing - Unity](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/unity.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/unity.yml)[![CI-Coverage](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/Code%20Coverage.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/Code%20Coverage.yml)|[![Valgrind-Dynamic Code Quality Analysis](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityDynamic.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityDynamic.yml)[![Cppcheck-Static Code Quality Analysis](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityStatic.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityStatic.yml)||
 
 
 # Introduction

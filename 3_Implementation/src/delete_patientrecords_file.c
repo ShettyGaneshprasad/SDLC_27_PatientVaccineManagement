@@ -15,7 +15,7 @@ error_t delete_patientrecords_file(FILE **fptr,FILE **ft, int id){
 
 }
 
-error_t delete_index_file(FILE **fptr,FILE **ft, int id){
+error_t delete_patient_index_file(FILE **fptr,FILE **ft, int id){
     int idx;
     *ft = fopen("TEMP.DAT","wb+");
     

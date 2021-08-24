@@ -34,11 +34,11 @@
 | 99005695 | Mihir Adarsh                 | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005632 | Srinidhi V Nayak             | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005682 | Anand Prakash Botkule        | Swot,4W&1H,Main.c,vaccination.h,test.c,gitinspector,codecoverage,Unity     | 8              | 8               | 2             | 2     |
-| 99005664 | Kanishk Thakur               | Patient Vaccine Manag                                                      | Nil            | Nil             | 0             | 0     |
+| 99005664 | Kanishk Thakur               | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005693 | Vysyaraju Srikar             | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005662 | Nikita Gajanan Deshmukh      | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005658 | Amit Kumar Sahani            | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
-| 99005636 | Ganeshprasad Santhosh Shetty | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
+| 99005636 | Ganeshprasad Santhosh Shetty | Created and assigned issue,Github workflow,Kanban,various patient functions, Unit testing| 35            | 12             | 4             | 4     |
 | 99005661 | Singama Setti Sai Pruthvi    | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 | 99005687 | Minhaaz Shaik                | Patient Vaccine Management                                                 | Nil            | Nil             | 0             | 0     |
 
@@ -77,3 +77,6 @@
 
 - C Language
 - Visual Studio Code
+- Codacy
+- Code Inspector
+- Git

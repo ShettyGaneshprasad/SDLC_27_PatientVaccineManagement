@@ -171,7 +171,7 @@ error_t delete_patientrecords_file(FILE **, FILE **, int);
  * @param[in]  FILE ** Pointer to temporary file 
  * @return error_t 
  */
-error_t delete_index_file(FILE **, FILE **, int);
+error_t delete_patient_index_file(FILE **, FILE **, int);
 
 /**
  * @brief Deletes all the nodes

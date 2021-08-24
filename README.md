@@ -1,7 +1,7 @@
-<!-- # SDLC_27_PatientVaccineManagement
+# SDLC_27_PatientVaccineManagement
 
 ![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
- -->
+
 
 ## Badges
 |Linux & Windows Build Status |Unity Testing & Code Coverage  |	Dynamic & Static Code Quality |	Codacy & CodeInspector |

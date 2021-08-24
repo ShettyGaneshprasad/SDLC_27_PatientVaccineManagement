@@ -1,23 +1,16 @@
-name: CodeQuality Dynamic Code Analysis Valgrind
+name: Unit Testing - Unity
+
 on:
   push:
-    branches: [ main ]
+    branches: [Production]
   pull_request:
-    branches: [ main ]
+    branches: [Production]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: apt install dependency
-      run: |
-        sudo apt-get -y install valgrind
-        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run: make -C 3_Implementation/ test
-    - name: Valgrid
-      run: make -C 3_Implementation/ valgrind
-
+      - uses: actions/checkout@v2
+      - name: make
+        run: make -C 3_Implementation/ test

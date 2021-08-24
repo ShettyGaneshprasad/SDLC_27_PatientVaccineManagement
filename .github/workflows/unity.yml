@@ -2,16 +2,15 @@ name: Unit Testing - Unity
 
 on:
   push:
-    branches: [ Poduction ]
+    branches: [Production]
   pull_request:
-    branches: [ Production ]
+    branches: [Production]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: make
-      run: make -C 3_Implementation/ test
+      - uses: actions/checkout@v2
+      - name: make
+        run: make -C 3_Implementation/ test

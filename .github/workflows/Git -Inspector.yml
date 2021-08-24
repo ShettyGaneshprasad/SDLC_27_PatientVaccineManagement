@@ -3,9 +3,9 @@ name: Contribution Check - Git Inspector
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Production ]
   pull_request:
-    branches: [ main ]
+    branches: [ Production ]
 
 jobs:
   inspect:

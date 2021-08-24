@@ -11,21 +11,22 @@
 #include "vaccination.h"
 
 /**
- * @brief function to validate patientid
- *
- *
+ * @brief 
+ * 
+ * @param fptr 
+ * @param id 
+ * @return error_t 
  */
-
 error_t validate_patientid(FILE **fptr, int id)
 {
     int existing_id;
-    while(fread(&existing_id, 4,1,*fptr)==1)
+    while (fread(&existing_id, 4, 1, *fptr) == 1)
     {
-        if(existing_id == id)
+        if (existing_id == id)
         {
 
             return ID_EXISTS;
-        }  
+        }
     }
     return SUCCESS;
 }

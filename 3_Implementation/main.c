@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author AnandBotkule
+ * @brief Main starting block of the programme
+ * @version 0.1
+ * @date 2021-08-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "vaccination.h"
 
 int main()

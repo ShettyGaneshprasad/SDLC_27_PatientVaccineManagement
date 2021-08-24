@@ -1,9 +1,9 @@
 name: Valgrind-Dynamic Code Quality Analysis
 on:
   push:
-    branches: [ main ]
+    branches: [ Production ]
   pull_request:
-    branches: [ main ]
+    branches: [ Production ]
 
 jobs:
   test:

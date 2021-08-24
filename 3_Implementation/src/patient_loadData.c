@@ -1,5 +1,22 @@
+/**
+ * @file patient_loadData.c
+ * @author Shetty Ganeshprasad (shettyganeshprasad1998@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-08-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "vaccination.h"
 
+/**
+ * @brief 
+ * 
+ * @param start 
+ * @param fptr 
+ * @return patient* 
+ */
 patient *patient_loadData(patient *start, FILE **fptr)
 {
 

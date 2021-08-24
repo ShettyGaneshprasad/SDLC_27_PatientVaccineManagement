@@ -42,7 +42,7 @@ typedef enum vaccine
 {
     Covishield = 0,
     Covaxin = 1,
-    Sputnik = 3
+    Sputnik = 2
 } vaccine;
 
 typedef enum insured

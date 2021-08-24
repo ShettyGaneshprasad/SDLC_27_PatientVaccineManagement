@@ -41,13 +41,13 @@ error_t display_patientid(patient *start)
             switch (ptr->shot)
             {
             case 1:
-                strcpy(vaccine, "RED");
+                strcpy(vaccine, "Covis");
                 break;
             case 2:
-                strcpy(vaccine, "GREEN");
+                strcpy(vaccine, "Covaxin");
                 break;
             case 3:
-                strcpy(vaccine, "BLUE");
+                strcpy(vaccine, "Sputnik");
                 break;
             default:
                 strcpy(vaccine, "Died");

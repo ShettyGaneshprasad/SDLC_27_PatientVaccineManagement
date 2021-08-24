@@ -108,7 +108,7 @@ int main()
                 scanf("%20s", aadhar_num);
                 printf("Enter age of the patient\n");
                 scanf("%d", &age);
-                printf("Is the patient insured?\n");
+                printf("Is the patient insured?\nInput 1 as YES & 0 as NO\n");
                 scanf("%d", &insurance);
                 printf("Enter the name of the vaccine recieved\nCovishield = 0\nCovaxin=1\nSputnik=3\n");
                 scanf("%d", &shot);

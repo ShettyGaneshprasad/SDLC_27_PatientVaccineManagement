@@ -1,14 +1,14 @@
 # SDLC_27_PatientVaccineManagement
-
-![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
-
-
-## Badges
 |Linux & Windows Build Status |Unity Testing & Code Coverage  |	Dynamic & Static Code Quality |	Codacy & CodeInspector |
 |------|---------------|--------------|-------|
 |[![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Linux.yml) [![Build](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/c-Build-Windows.yml)|[![Unit Testing - Unity](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/unity.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/unity.yml)[![CI-Coverage](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/Code%20Coverage.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/Code%20Coverage.yml)|[![Valgrind-Dynamic Code Quality Analysis](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityDynamic.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityDynamic.yml)[![Cppcheck-Static Code Quality Analysis](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityStatic.yml/badge.svg)](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/actions/workflows/codeQualityStatic.yml)||
 
 
+
+
+
+
+![Banner](https://github.com/ShettyGaneshprasad/SDLC_27_PatientVaccineManagement/blob/Production/1_Requirements/pvmsbanner.jpg)
 # Introduction
 
 - The modules help to provides the patient data ,scheduling the appointment for vaccination ,update a patient record and billing function.

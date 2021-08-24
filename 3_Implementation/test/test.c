@@ -205,7 +205,7 @@ void check_uniq_id(void)
 void check_data_loaded_write(void)
 {
     delete_allpatientrecords(start);
-    start = loadData(start, &r);
+    start = patient_loadData(start, &r);
     TEST_ASSERT_NOT_EQUAL(NULL, start);
 }
 

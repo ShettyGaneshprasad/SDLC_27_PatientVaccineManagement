@@ -235,7 +235,7 @@ int main()
 
             if (choice == 5)
             {
-                printf("Savind Data to file...\n");
+                printf("Saving Data to file...\n");
                 error_t code = (*fptr_type6)(start, &r, &ch);
                 printf("Data Saved!\n");
             }

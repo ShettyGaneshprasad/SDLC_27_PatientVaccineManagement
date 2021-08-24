@@ -110,7 +110,7 @@ int main()
                 scanf("%d", &age);
                 printf("Is the patient insured?\n");
                 scanf("%d", &insurance);
-                printf("Enter the name of the vaccine recieved\n");
+                printf("Enter the name of the vaccine recieved\nCovishield = 0\nCovaxin=1\nSputnik=3\n");
                 scanf("%d", &shot);
                 printf("Enter the date of vaccination\n");
                 scanf("%12s", date);

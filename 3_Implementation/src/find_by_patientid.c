@@ -1,6 +1,6 @@
 /**
  * @file find_by_patientid.c
- * @author Amit kumar sahni (amit.sahni@ltts.com)
+ * @author Kanishk Thakur
  * @brief 
  * @version 0.1
  * @date 2021-08-23

@@ -253,7 +253,7 @@ int main()
                     patient_openFile("RECORD.DAT", "rb+", &r);
 
                     //Updating INDEX file
-                    error_t del_idx_code = delete_index_file(&f, &rt, id);
+                    error_t del_idx_code = delete_patient_index_file(&f, &rt, id);
                     //fclose(rt);
                     fclose(f);
                     remove("INDEX.DAT");

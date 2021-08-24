@@ -40,9 +40,9 @@ typedef enum error_t
  */
 typedef enum vaccine
 {
-    RED = 0,
-    GREEN,
-    YELLOW
+    Covishield = 0,
+    Covaxin = 1,
+    Sputnik = 3
 } vaccine;
 
 typedef enum insured

@@ -27,6 +27,11 @@
 | 6_ImagesandVideos   | All the UML diagrams and other required images                   |
 | 7_Data              | Files having text file                                           |
 
+## Git Inspector
+![image](https://user-images.githubusercontent.com/50592455/130726410-92133e94-5ff7-4a86-942c-fae257ac6c21.png)
+
+
+
 ## Contributors List and Summary
 
 | PS No.   | Name                         |               Contribution of team members                                 | Issuess Raised | Issues Resolved | No Test Cases |  Pass |
